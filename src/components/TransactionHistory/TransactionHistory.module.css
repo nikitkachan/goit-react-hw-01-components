@@ -1,0 +1,32 @@
+table,
+th,
+td {
+  border: 1px solid #cfcfcf;
+  border-collapse: collapse;
+}
+
+thead {
+  height: 40px;
+  color: white;
+  background-color: rgb(64, 152, 224);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+tr {
+  text-align: center;
+  height: 40px;
+  border: 1px solid #848484;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.transactionHistory {
+  margin: 100px;
+  width: 600px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: -1px 3px 6px 0px rgba(153, 153, 153, 1);
+}
