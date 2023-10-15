@@ -57,6 +57,10 @@
   border-right: 1px solid #dddddd;
 }
 
+.stats li:last-child {
+  border-right: none;
+}
+
 .label {
   color: #9ba5b1;
   font-size: 14px;
